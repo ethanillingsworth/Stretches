@@ -14,10 +14,14 @@ Since Stretches isnt available on the app store yet, we recommend using [Swift P
 5. Enjoy!
 
 ## Features
-✅ Grouping sub tasks into a main task 
+✅ Grouping sub tasks into a main task
+
 ✅ 3 Diffrent sub task types to choose from 
-✅ Light and Dark mode 
+
+✅ Light and Dark mode
+
 ✅ Filtering of sub tasks 
+
 ✅ Ability to search though sub tasks with a search bar 
 
 ## Contributing/Issues
