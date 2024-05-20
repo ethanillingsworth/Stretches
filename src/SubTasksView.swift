@@ -113,8 +113,10 @@ struct SubTasksView: View {
                     
                 }
                 .onDelete(perform: { indexSet in
-                    baseTasks[baseIndex].subTasks.remove(atOffsets: indexSet)
-                    SaveManager.save(baseTasks)
+                    if searchText == "" {
+                        baseTasks[baseIndex].subTasks.remove(atOffsets: indexSet)
+                        SaveManager.save(baseTasks)
+                    }
                 })
                 .listRowInsets(EdgeInsets())
                 .listRowSeparator(.hidden)
